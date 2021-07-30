@@ -107,7 +107,7 @@ main .footer {
   width: 360px;
 }
 .main-title {
-  color: rgb(100, 98, 227);
+  color: rgb(97, 88, 223);
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -136,7 +136,7 @@ main .footer {
 }
 .btn {
   color: #fff;
-  background-color: rgb(100, 98, 227);
+  background-color: rgb(97, 88, 223);
   padding: 10px;
   border-radius: 5px;
   width: 100%;
@@ -145,10 +145,12 @@ main .footer {
 }
 
 a {
-  color: rgb(100, 98, 227);
+  color: rgb(97, 88, 223);
+  font-weight: bold;
 }
 .line {
   display: inline;
+  cursor: pointer;
 }
 input[type="email"],
 input[type="password"] {
@@ -156,6 +158,7 @@ input[type="password"] {
   width: 100%;
   border-radius: 3px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .checkbox {
@@ -173,7 +176,9 @@ input[type="password"] {
 .main-btn > p {
   padding-top: 20px;
 }
-
+.main-btn a {
+  font-size: 16px;
+}
 .footer {
   padding-top: 25px;
 }
