@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside,
+span {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding-left: 37px;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+/*--------------------*/
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1,
+main .footer {
+  text-align: center;
+}
+.container {
+  width: 360px;
+}
+.main-title {
+  color: rgb(100, 98, 227);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.form {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  max-width: 360px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 40px 35px;
+}
+.form-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.fields {
+  padding-top: 10px;
+}
+
+.fields p,
+.fields .wrap {
+  padding-bottom: 10px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  color: #fff;
+  background-color: rgb(100, 98, 227);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a {
+  color: rgb(100, 98, 227);
+}
+.line {
+  display: inline;
+}
+input[type="email"],
+input[type="password"] {
+  border: 2px solid rgb(130, 129, 214, 0.5);
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.checkbox {
+  padding-top: 20px;
+}
+
+#check {
+  cursor: pointer;
+}
+.main-btn {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main-btn > p {
+  padding-top: 20px;
+}
+
+.footer {
+  padding-top: 25px;
+}
